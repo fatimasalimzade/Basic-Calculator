@@ -1,0 +1,70 @@
+.container-fluid {
+    background-color: #070F2B;
+}
+
+button:hover {
+    background-color: #131338;
+}
+
+.clear {
+    background-color: #720455;
+    border-radius: 0 0 0 12px;
+    border-radius: 12px;
+}
+
+.clear:hover {
+    background-color: #4b0438;
+}
+
+.equals {
+    background-color: #57A6A1;
+    border-radius: 0 0 12px 12px;
+    border-radius: 12px;
+}
+
+.equals:hover {
+    background-color: #386966;
+}
+
+.border1 {
+    border: 1px solid;
+    border-color: rgb(161, 161, 161);
+}
+
+.p, button {
+    margin-bottom: 12px;
+}
+
+input {
+    outline: none;
+    border-radius: 12px;
+    border: 0;
+}
+
+.w-23 {
+    width: 23%;
+}
+
+.row {
+    height: 60%;
+    border-radius: 12px;
+}
+
+button {
+    border-radius: 12px;
+    border: 0;
+    background-color: #1B1A55;
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    width: 25%;
+}
+
+@media (max-width: 1200px) {
+    .row {
+        width: 75%;
+    }
+}
+
